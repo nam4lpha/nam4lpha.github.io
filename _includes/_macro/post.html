@@ -266,11 +266,7 @@
       </header>
     {% endunless %}
 
-  <!-- Your customer chat code -->
-      <div class="fb-customerchat"
-      attribution=setup_tool
-      page_id="110773384708236">
-      </div>
+
 
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
@@ -398,6 +394,13 @@
         </div>
       {% endif %}
       {% endunless %}
+
+  <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="110773384708236">
+      </div>
+
 
       {% unless is_index %}
       {% if post.previous or post.next %}
